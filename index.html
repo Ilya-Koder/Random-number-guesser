@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Guess the number!</h1>
+    <div class="game-container">
+      <!-- Start Screen -->
+      <div id="startScreen">
+        <h2>Choose Difficulty</h2>
+        <button id="easyButton">Easy (1 - 100)</button>
+        <button id="mediumButton">Medium (1 - 1000)</button>
+        <button id="hardButton">Hard (1 - 10000)</button>
+      </div>
+
+      <!-- Game Screen -->
+      <div id="gameScreen" class="hidden">
+        <p id="difficultyDisplay"></p>
+        <input type="number" id="numberInput" placeholder="Enter your guess" />
+        <button id="guessButton">Guess</button>
+        <p id="triesCounter">Tries: 0</p>
+        <ul id="previousAnswers"></ul>
+      </div>
+    </div>
+  </body>
+</html>
