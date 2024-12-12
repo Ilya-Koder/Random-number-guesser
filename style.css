@@ -1,21 +1,3 @@
-/* @starting-style {
-  img {
-    transform: translate(-50%, -50%) translateX(100vw);
-  }
-}
-body {
-  overflow: hidden;
-}
-img {
-  visibility: hidden;
-  opacity: 1;
-  position: relative;
-  top: 50%;
-  left: 50%;
-
-  /* transform: translate(-50px); 
-  transition: slideIn 10s ease-in;
-} */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
